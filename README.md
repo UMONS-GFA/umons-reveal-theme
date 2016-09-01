@@ -6,7 +6,7 @@ UMONS theme for Reveal.js presentation framework
 
 ```bash
 $ git clone https://github.com/hakimel/reveal.js.git && git clone https://github.com/UMONS-GFA/umons-reveal-theme.git
-$ cp umons-reveal-theme/* reveal.js-*/
+$ cp umons-reveal-theme/* reveal.js/
 ```
 
 
@@ -19,7 +19,7 @@ You just need to open index.html in your browser.
 
 ```bash
 $ sudo apt-get install nodejs nodejs-legacy npm
-$ cd reveal.js-*/
+$ cd reveal.js/
 $ npm install
 $ npm start
 
