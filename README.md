@@ -19,8 +19,8 @@ You just need to open index.html in your browser.
 
 ```bash
 $ sudo apt-get install nodejs nodejs-legacy npm
+$ cd reveal.js-*/
 $ npm install
-$ cd 
 $ npm start
 
 ```
