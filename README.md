@@ -1,23 +1,26 @@
 # umons-reveal-theme
 UMONS theme for Reveal.js presentation framework
 
-For a complete demo with speaker notes plugin :
+
+### How to test it
 
 ```bash
-$ sudo apt-get install nodejs npm
-$ wget https://github.com/UMONS-GFA/umons-reveal-theme/releases/download/v1.0/umons-reveal-demo.zip
-$ unzip -d umons-reveal-demo umons-reveal-demo.zip
-$ cd umons-reveal-demo
+$ git clone https://github.com/hakimel/reveal.js.git && git clone https://github.com/UMONS-GFA/umons-reveal-theme.git
+$ cp umons-reveal-theme/* reveal.js-*/
+```
+
+
+#### Basic setup
+
+You just need to open index.html in your browser.
+
+
+#### Complete setup (with speaker notes, zoom, etc)
+
+```bash
+$ sudo apt-get install nodejs nodejs-legacy npm
 $ npm install
+$ cd 
 $ npm start
 
 ```
-
-For a portable demo
-
-```bash
-$ wget https://github.com/UMONS-GFA/umons-reveal-theme/releases/download/v1.0/umons-reveal-demo.zip
-$ unzip -d umons-reveal-demo umons-reveal-demo.zip
-```
-
-You just need to open index.html in your browser.
