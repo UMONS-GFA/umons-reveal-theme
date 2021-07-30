@@ -6,7 +6,7 @@ UMONS theme for Reveal.js presentation framework
 
 ```bash
 $ git clone https://github.com/hakimel/reveal.js.git && git clone https://github.com/UMONS-GFA/umons-reveal-theme.git
-$ cp umons-reveal-theme/* reveal.js/
+$ cp -r umons-reveal-theme/* reveal.js/
 ```
 
 
